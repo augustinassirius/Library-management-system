@@ -1,0 +1,13 @@
+com/example/library/jpa/JPAUtil.class
+com/example/library/model/Loan.class
+com/example/library/MainApp.class
+com/example/library/ui/BookDialogController.class
+com/example/library/model/Book.class
+com/example/library/dao/MemberDAO.class
+com/example/library/ui/LoanDialogController.class
+com/example/library/model/Member.class
+com/example/library/dao/BookDAO.class
+com/example/library/ui/MainController.class
+com/example/library/dao/LoanDAO.class
+com/example/library/ui/MemberDialogController.class
+com/example/library/dao/GenericDAO.class

@@ -1,0 +1,13 @@
+/Users/augustinassirius/library-management/src/main/java/com/example/library/model/Loan.java
+/Users/augustinassirius/library-management/src/main/java/com/example/library/dao/BookDAO.java
+/Users/augustinassirius/library-management/src/main/java/com/example/library/ui/MemberDialogController.java
+/Users/augustinassirius/library-management/src/main/java/com/example/library/ui/BookDialogController.java
+/Users/augustinassirius/library-management/src/main/java/com/example/library/MainApp.java
+/Users/augustinassirius/library-management/src/main/java/com/example/library/model/Book.java
+/Users/augustinassirius/library-management/src/main/java/com/example/library/model/Member.java
+/Users/augustinassirius/library-management/src/main/java/com/example/library/dao/LoanDAO.java
+/Users/augustinassirius/library-management/src/main/java/com/example/library/dao/MemberDAO.java
+/Users/augustinassirius/library-management/src/main/java/com/example/library/dao/GenericDAO.java
+/Users/augustinassirius/library-management/src/main/java/com/example/library/ui/MainController.java
+/Users/augustinassirius/library-management/src/main/java/com/example/library/jpa/JPAUtil.java
+/Users/augustinassirius/library-management/src/main/java/com/example/library/ui/LoanDialogController.java

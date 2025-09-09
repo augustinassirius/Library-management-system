@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.library.ui.MainController">
+    <top>
+        <ToolBar>
+            <Button text="Add Book" onAction="#onAddBook"/>
+            <Button text="Edit Book" onAction="#onEditBook"/>
+            <Button text="Delete Book" onAction="#onDeleteBook"/>
+            <Separator/>
+            <Button text="Add Member" onAction="#onAddMember"/>
+            <Button text="Edit Member" onAction="#onEditMember"/>
+            <Button text="Delete Member" onAction="#onDeleteMember"/>
+            <Separator/>
+            <Button text="Add Loan" onAction="#onAddLoan"/>
+            <Button text="Delete Loan" onAction="#onDeleteLoan"/>
+        </ToolBar>
+    </top>
+    <center>
+        <TabPane>
+            <Tab text="Books">
+                <TableView fx:id="bookTable">
+                    <columns>
+                        <TableColumn fx:id="bookTitleColumn" text="Title"/>
+                        <TableColumn fx:id="bookAuthorColumn" text="Author"/>
+                        <TableColumn fx:id="bookIsbnColumn" text="ISBN"/>
+                        <TableColumn fx:id="bookCopiesColumn" text="Copies"/>
+                    </columns>
+                </TableView>
+            </Tab>
+            <Tab text="Members">
+                <TableView fx:id="memberTable">
+                    <columns>
+                        <TableColumn fx:id="memberNameColumn" text="Name"/>
+                        <TableColumn fx:id="memberEmailColumn" text="Email"/>
+                    </columns>
+                </TableView>
+            </Tab>
+            <Tab text="Loans">
+                <TableView fx:id="loanTable">
+                    <columns>
+                        <TableColumn fx:id="loanBookColumn" text="Book"/>
+                        <TableColumn fx:id="loanMemberColumn" text="Member"/>
+                        <TableColumn fx:id="loanDateColumn" text="Date"/>
+                    </columns>
+                </TableView>
+            </Tab>
+        </TabPane>
+    </center>
+</BorderPane>
